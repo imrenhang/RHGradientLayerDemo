@@ -16,6 +16,7 @@
 		BD06EB0D1ED519830067E9FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD06EB0B1ED519830067E9FA /* LaunchScreen.storyboard */; };
 		BD06EB181ED519830067E9FA /* RHGradientLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD06EB171ED519830067E9FA /* RHGradientLayerDemoTests.m */; };
 		BD06EB231ED519830067E9FA /* RHGradientLayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD06EB221ED519830067E9FA /* RHGradientLayerDemoUITests.m */; };
+		BD06EB321ED5199B0067E9FA /* UIView+RHGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BD06EB311ED5199B0067E9FA /* UIView+RHGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BD06EB1E1ED519830067E9FA /* RHGradientLayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHGradientLayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD06EB221ED519830067E9FA /* RHGradientLayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHGradientLayerDemoUITests.m; sourceTree = "<group>"; };
 		BD06EB241ED519830067E9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD06EB301ED5199B0067E9FA /* UIView+RHGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RHGradientLayer.h"; sourceTree = "<group>"; };
+		BD06EB311ED5199B0067E9FA /* UIView+RHGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RHGradientLayer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 			children = (
 				BD06EAFD1ED519830067E9FA /* AppDelegate.h */,
 				BD06EAFE1ED519830067E9FA /* AppDelegate.m */,
+				BD06EB301ED5199B0067E9FA /* UIView+RHGradientLayer.h */,
+				BD06EB311ED5199B0067E9FA /* UIView+RHGradientLayer.m */,
 				BD06EB001ED519830067E9FA /* ViewController.h */,
 				BD06EB011ED519830067E9FA /* ViewController.m */,
 				BD06EB031ED519830067E9FA /* Main.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD06EB321ED5199B0067E9FA /* UIView+RHGradientLayer.m in Sources */,
 				BD06EB081ED519830067E9FA /* RHGradientLayerDemo.xcdatamodeld in Sources */,
 				BD06EB021ED519830067E9FA /* ViewController.m in Sources */,
 				BD06EAFF1ED519830067E9FA /* AppDelegate.m in Sources */,
